@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Glancyr';
+  src: url('/Glancyr/glancyr-glancyr-regular-400.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-bold-700.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-bold-italic-700.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-extra-light-100.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-extra-light-italic-100.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-light-200.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-light-italic-200.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-medium-500.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-medium-italic-500.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-regular-italic-400.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-semibold-600.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-semibold-italic-600.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-thin-200.ttf') format('truetype'),
+       url('/Glancyr/glancyr-glancyr-thin-italic-200.ttf') format('truetype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+:root {
+  font-family: 'Glancyr', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Glancyr', sans-serif;
+}
